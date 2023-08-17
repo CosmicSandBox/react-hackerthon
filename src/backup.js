@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom"; // Routes 대신 Route를 import
 
-import Category from "./Category.jsx";
+import Category from "./components/Category/Category.jsx";
 
 function App() {
   return (
@@ -21,8 +21,7 @@ function App() {
             rel="noopener noreferrer"
           >
             Learn React
-          </a>
-          S
+          </a>S
         </header>
       </div>
       {<Route path="/Category" element={<Category />} />}

@@ -2,11 +2,11 @@ import React from "react";
 
 import Rectangle248Image from "../../assets/images/Category_Rectangle_24.png";
 
-import IconCheckOneImage from "../../assets/images/Category_____icon__check_one_.png";
+/*import IconCheckOneImage from "../../assets/images/Category_____icon__check_one_.png";
 
 import IconCheckOne1Image from "../../assets/images/Category_____icon__check_one1_.png";
 
-import IconCheckOne2Image from "../../assets/images/Category_____icon__check_one2_.png";
+import IconCheckOne2Image from "../../assets/images/Category_____icon__check_one2_.png";*/
 
 import HomeGreyImage from "../../assets/images/Category_HomeGrey.png";
 
@@ -18,9 +18,9 @@ import MyPageGreyImage from "../../assets/images/Category_MyPageGrey.png";
 
 import { styled } from "@mui/material/styles";
 
-import BackIcon from "../../assets/images/back_icon.png";
+/*import BackIcon from "../../assets/images/back_icon.png";
 
-import Search from "../../assets/images/search.png";
+import Search from "../../assets/images/search.png";*/
 
 const Category1 = styled("div")({
   backgroundColor: `rgba(255, 255, 255, 1)`,
@@ -46,30 +46,30 @@ const BackgroundColorGray = styled("div")({
   top: `88px`,
 });
 
-const Line3 = styled("div")({
+/*const Line3 = styled("div")({
   border: `0.5px solid rgba(210, 214, 219, 1)`,
   width: `390px`,
   height: `0px`,
   position: `absolute`,
   left: `0px`,
   top: `91px`,
-});
+});*/
 
-const BackIcon1 = styled(BackIcon)({
+/*const BackIcon1 = styled(BackIcon)({
   width: `22px`,
   height: `22px`,
   position: `absolute`,
   left: `11px`,
   top: `55px`,
-});
+});*/
 
-const Search1 = styled(Search)({
+/*const Search1 = styled(Search)({
   width: `180.25px`,
   height: `18px`,
   position: `absolute`,
   left: `43px`,
   top: `56px`,
-});
+});*/
 
 const Q = styled("div")({
   display: `flex`,
@@ -832,7 +832,7 @@ const Q18 = styled("div")({
   top: `20px`,
 });
 
-const RedCheckGroup = styled("div")({
+/*const RedCheckGroup = styled("div")({
   display: `flex`,
   position: `absolute`,
   isolation: `isolate`,
@@ -845,7 +845,7 @@ const RedCheckGroup = styled("div")({
   height: `20px`,
   left: `44px`,
   top: `1219px`,
-});
+});*/
 
 const Frame9 = styled("div")({
   display: `flex`,
@@ -877,15 +877,15 @@ const Q19 = styled("div")({
   margin: `0px`,
 });
 
-const IconCheckOne = styled("img")({
+/*const IconCheckOne = styled(IconCheckOneImage)({
   height: `20px`,
   width: `20px`,
   position: `absolute`,
   left: `0px`,
   top: `0px`,
-});
+});*/
 
-const GreenCheckGroup = styled("div")({
+/*const GreenCheckGroup = styled("div")({
   display: `flex`,
   position: `absolute`,
   isolation: `isolate`,
@@ -898,7 +898,7 @@ const GreenCheckGroup = styled("div")({
   height: `20px`,
   left: `41px`,
   top: `736px`,
-});
+});*/
 
 const Frame8 = styled("div")({
   display: `flex`,
@@ -930,7 +930,7 @@ const Q20 = styled("div")({
   margin: `0px`,
 });
 
-const IconCheckOne1 = styled("img")({
+/*const IconCheckOne1 = styled(IconCheckOne1Image)({
   height: `20px`,
   width: `20px`,
   position: `absolute`,
@@ -953,13 +953,13 @@ const BlueCheckGroup = styled("div")({
   top: `111px`,
 });
 
-const IconCheckOne2 = styled("img")({
+const IconCheckOne2 = styled(IconCheckOne2Image)({
   height: `20px`,
   width: `22.67px`,
   position: `absolute`,
   left: `0px`,
   top: `0px`,
-});
+});*/
 
 const Q21 = styled("div")({
   display: `flex`,
@@ -1063,133 +1063,122 @@ const MyPageGrey = styled("img")({
 function Category() {
   return (
     <Category1>
-      <BackgroundColorGray></BackgroundColorGray>
-      <Line3></Line3>
-      <BackIcon1 />
-      <Search1 />
-      <Q>
-        <ShortCut>
-          <Rectangle24></Rectangle24>
-          <Q1>{`단축키 전화걸기`}</Q1>
-        </ShortCut>
-        <SamSungPay>
-          <Rectangle241></Rectangle241>
-          <Q2>{`삼성페이 활용하기`}</Q2>
-        </SamSungPay>
-      </Q>
-      <Q3>
-        <Wifi>
-          <Rectangle242></Rectangle242>
-          <Q4>{`와이파이 연결하기`}</Q4>
-        </Wifi>
-        <Wallpaper>
-          <Rectangle243></Rectangle243>
-          <Q5>{`배경화면 바꾸기`}</Q5>
-        </Wallpaper>
-        <KakaoTalk>
-          <Rectangle244></Rectangle244>
-          <Q6>{`카카오톡 활용하기`}</Q6>
-        </KakaoTalk>
-        <PhoneBook>
-          <Rectangle245></Rectangle245>
-          <Q7>{`연락처 추가 및 삭제하기`}</Q7>
-        </PhoneBook>
-        <MemoApp>
-          <Rectangle246></Rectangle246>
-          <Q8>{`메모장 활용하기`}</Q8>
-        </MemoApp>
-        <AppInstallDelete>
-          <Rectangle247></Rectangle247>
-          <Q9>{`앱 설치 및 삭제하기`}</Q9>
-        </AppInstallDelete>
-      </Q3>
-      <Q10>
-        <SoundVibration>
-          <Rectangle248
-            src={Rectangle248Image}
-            loading="lazy"
-            alt={"Rectangle 24"}
-          />
-          <Q11>{`소리 및 무음 설정하기`}</Q11>
-        </SoundVibration>
-        <TimerAlarm>
-          <Rectangle249></Rectangle249>
-          <Q12>{`타이머 및 알람 설정하기`}</Q12>
-        </TimerAlarm>
-        <Brightness>
-          <Rectangle2410></Rectangle2410>
-          <Q13>{`휴대폰 밝기 설정하기`}</Q13>
-        </Brightness>
-        <Keyboard>
-          <Rectangle2411></Rectangle2411>
-          <Q14>{`키보드 활용하기`}</Q14>
-        </Keyboard>
-        <Capture>
-          <Rectangle2412></Rectangle2412>
-          <Q15>{`화면 캡쳐하기기`}</Q15>
-        </Capture>
-        <PhoneOnOff>
-          <Rectangle2413></Rectangle2413>
-          <Q16>{`휴대폰 켜고 끄기`}</Q16>
-        </PhoneOnOff>
-        <VideoCall>
-          <Rectangle2414></Rectangle2414>
-          <Q17>{`영상통화 걸기`}</Q17>
-        </VideoCall>
-        <SpeakerPhone>
-          <Rectangle2415></Rectangle2415>
-          <Q18>{`스피커폰으로 통화하기`}</Q18>
-        </SpeakerPhone>
-      </Q10>
-      <RedCheckGroup>
-        <Frame9>
-          <Q19>{`고급기능`}</Q19>
-        </Frame9>
-        <IconCheckOne
-          src={IconCheckOneImage}
-          loading="lazy"
-          alt={"🦆 icon 'check one'"}
-        />
-      </RedCheckGroup>
-      <GreenCheckGroup>
-        <Frame8>
-          <Q20>{`중급기능`}</Q20>
-        </Frame8>
-        <IconCheckOne1
-          src={IconCheckOne1Image}
-          loading="lazy"
-          alt={"🦆 icon 'check one'"}
-        />
-      </GreenCheckGroup>
-      <BlueCheckGroup>
-        <IconCheckOne2
-          src={IconCheckOne2Image}
-          loading="lazy"
-          alt={"🦆 icon 'check one'"}
-        />
-
+      <BackgroundColorGray>
+        <Q>
+          <ShortCut>
+            <Rectangle24>
+              <Q1>{`단축키 전화걸기`}</Q1>
+            </Rectangle24>
+          </ShortCut>
+          <SamSungPay>
+            <Rectangle241>
+              <Q2>{`삼성페이 활용하기`}</Q2>
+            </Rectangle241>
+          </SamSungPay>
+        </Q>
+        <Q3>
+          <Wifi>
+            <Rectangle242>
+              <Q4>{`와이파이 연결하기`}</Q4>
+            </Rectangle242>
+          </Wifi>
+          <Wallpaper>
+            <Rectangle243>
+              <Q5>{`배경화면 바꾸기`}</Q5>
+            </Rectangle243>
+          </Wallpaper>
+          <KakaoTalk>
+            <Rectangle244>
+              <Q6>{`카카오톡 활용하기`}</Q6>
+            </Rectangle244>
+          </KakaoTalk>
+          <PhoneBook>
+            <Rectangle245>
+              <Q7>{`연락처 추가 및 삭제하기`}</Q7>
+            </Rectangle245>
+          </PhoneBook>
+          <MemoApp>
+            <Rectangle246>
+              <Q8>{`메모장 활용하기`}</Q8>
+            </Rectangle246>
+          </MemoApp>
+          <AppInstallDelete>
+            <Rectangle247>
+              <Q9>{`앱 설치 및 삭제하기`}</Q9>
+            </Rectangle247>
+          </AppInstallDelete>
+        </Q3>
+        <Q10>
+          <SoundVibration>
+            <Rectangle248
+              src={Rectangle248Image}
+              loading="lazy"
+              alt={"Rectangle 24"}
+            />
+            <Q11>{`소리 및 무음 설정하기`}</Q11>
+          </SoundVibration>
+          <TimerAlarm>
+            <Rectangle249>
+              <Q12>{`타이머 및 알람 설정하기`}</Q12>
+            </Rectangle249>
+          </TimerAlarm>
+          <Brightness>
+            <Rectangle2410>
+              <Q13>{`휴대폰 밝기 설정하기`}</Q13>
+            </Rectangle2410>
+          </Brightness>
+          <Keyboard>
+            <Rectangle2411>
+              <Q14>{`키보드 활용하기`}</Q14>
+            </Rectangle2411>
+          </Keyboard>
+          <Capture>
+            <Rectangle2412>
+              <Q15>{`화면 캡쳐하기기`}</Q15>
+            </Rectangle2412>
+          </Capture>
+          <PhoneOnOff>
+            <Rectangle2413>
+              <Q16>{`휴대폰 켜고 끄기`}</Q16>
+            </Rectangle2413>
+          </PhoneOnOff>
+          <VideoCall>
+            <Rectangle2414>
+              <Q17>{`영상통화 걸기`}</Q17>
+            </Rectangle2414>
+          </VideoCall>
+          <SpeakerPhone>
+            <Rectangle2415>
+              <Q18>{`스피커폰으로 통화하기`}</Q18>
+            </Rectangle2415>
+          </SpeakerPhone>
+        </Q10>
         <Q21>
           <Frame5>
             <Q22>{`초급기능`}</Q22>
           </Frame5>
         </Q21>
-      </BlueCheckGroup>
-      <BottomMenuBar>
-        <Frame7>
-          <HomeGrey src={HomeGreyImage} loading="lazy" alt={"HomeGrey"} />
-          <CategoryBlack
-            src={CategoryBlackImage}
-            loading="lazy"
-            alt={"CategoryBlack"}
-          />
-          <CorrectionGrey
-            src={CorrectionGreyImage}
-            loading="lazy"
-            alt={"CorrectionGrey"}
-          />
-          <MyPageGrey src={MyPageGreyImage} loading="lazy" alt={"MyPageGrey"} />
-        </Frame7>
-      </BottomMenuBar>
+        <BottomMenuBar>
+          <Frame7>
+            <HomeGrey src={HomeGreyImage} loading="lazy" alt={"HomeGrey"} />
+            <CategoryBlack
+              src={CategoryBlackImage}
+              loading="lazy"
+              alt={"CategoryBlack"}
+            />
+            <CorrectionGrey
+              src={CorrectionGreyImage}
+              loading="lazy"
+              alt={"CorrectionGrey"}
+            />
+            <MyPageGrey
+              src={MyPageGreyImage}
+              loading="lazy"
+              alt={"MyPageGrey"}
+            />
+          </Frame7>
+        </BottomMenuBar>
+      </BackgroundColorGray>
     </Category1>
   );
 }
